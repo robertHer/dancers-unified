@@ -1005,3 +1005,20 @@ color: white;
 .coaches{
 	border-right: 1px solid white;
 }
+.dance{
+	width: 150px;
+height: 150px;
+border-radius: 50%;
+background-color: #ff7aa2;
+margin: 0 auto 20px auto;
+/* position: relative; */
+}
+.content{
+	padding: 150px 0 125px 0;
+}
+.bg-image{
+	background-image: url(https://dancersunified.com/wp-content/uploads/2018/06/home-page-box.jpg);
+	background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}

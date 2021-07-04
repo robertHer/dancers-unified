@@ -476,6 +476,138 @@ function whc_custom_post_type(){
 		'exclude_from_search' => false
 	);
 
+	$post11Args = array(
+		'labels' => array(
+			'name' => 'posts11',
+			'singular_name' => 'post11', 
+			'add_new' => 'Add Item',
+			'all_items' => 'All Items',
+			'add_new_item' => 'Add Item',
+			'edit_item' => 'Edit Item',
+			'new_item' => 'New Item',
+			'view_item' => 'View Item',
+			'search_item' => 'Search head',
+			'not_found' => 'No Items Found',
+			'not_found_in_trash' => 'No items found in trash',
+			'parent_item_colon' => 'Parent Item'
+		),
+		'public' => true,
+		'has_archive' => true,
+		'publicly_queryable' => true,
+		'query_var' =>true,
+		'rewrite' => true,
+		'capability_type' => 'post',
+		'hierarchical' => false,
+		'supports' => array(
+			'title',
+			'editor',
+			'excerpt',
+			'thumbnail',
+			'revisions',
+		),
+		'taxonomies' => array('category', 'post_tag'),
+		'exclude_from_search' => false
+	); 
+
+	$post12Args = array(
+		'labels' => array(
+			'name' => 'posts12',
+			'singular_name' => 'post12', 
+			'add_new' => 'Add Item',
+			'all_items' => 'All Items',
+			'add_new_item' => 'Add Item',
+			'edit_item' => 'Edit Item',
+			'new_item' => 'New Item',
+			'view_item' => 'View Item',
+			'search_item' => 'Search head',
+			'not_found' => 'No Items Found',
+			'not_found_in_trash' => 'No items found in trash',
+			'parent_item_colon' => 'Parent Item'
+		),
+		'public' => true,
+		'has_archive' => true,
+		'publicly_queryable' => true,
+		'query_var' =>true,
+		'rewrite' => true,
+		'capability_type' => 'post',
+		'hierarchical' => false,
+		'supports' => array(
+			'title',
+			'editor',
+			'excerpt',
+			'thumbnail',
+			'revisions',
+		),
+		'taxonomies' => array('category', 'post_tag'),
+		'exclude_from_search' => false
+	);
+
+	$post12Args = array(
+		'labels' => array(
+			'name' => 'posts12',
+			'singular_name' => 'post12', 
+			'add_new' => 'Add Item',
+			'all_items' => 'All Items',
+			'add_new_item' => 'Add Item',
+			'edit_item' => 'Edit Item',
+			'new_item' => 'New Item',
+			'view_item' => 'View Item',
+			'search_item' => 'Search head',
+			'not_found' => 'No Items Found',
+			'not_found_in_trash' => 'No items found in trash',
+			'parent_item_colon' => 'Parent Item'
+		),
+		'public' => true,
+		'has_archive' => true,
+		'publicly_queryable' => true,
+		'query_var' =>true,
+		'rewrite' => true,
+		'capability_type' => 'post',
+		'hierarchical' => false,
+		'supports' => array(
+			'title',
+			'editor',
+			'excerpt',
+			'thumbnail',
+			'revisions',
+		),
+		'taxonomies' => array('category', 'post_tag'),
+		'exclude_from_search' => false
+	);
+
+	$post13Args = array(
+		'labels' => array(
+			'name' => 'posts13',
+			'singular_name' => 'post13', 
+			'add_new' => 'Add Item',
+			'all_items' => 'All Items',
+			'add_new_item' => 'Add Item',
+			'edit_item' => 'Edit Item',
+			'new_item' => 'New Item',
+			'view_item' => 'View Item',
+			'search_item' => 'Search head',
+			'not_found' => 'No Items Found',
+			'not_found_in_trash' => 'No items found in trash',
+			'parent_item_colon' => 'Parent Item'
+		),
+		'public' => true,
+		'has_archive' => true,
+		'publicly_queryable' => true,
+		'query_var' =>true,
+		'rewrite' => true,
+		'capability_type' => 'post',
+		'hierarchical' => false,
+		'supports' => array(
+			'title',
+			'editor',
+			'excerpt',
+			'thumbnail',
+			'revisions',
+		),
+		'taxonomies' => array('category', 'post_tag'),
+		'exclude_from_search' => false
+	);
+
 
 	register_post_type('mastheads', $mastheadArgs);
 	register_post_type('bottomwhites', $bottomwhiteArgs);
@@ -487,6 +619,9 @@ function whc_custom_post_type(){
 	register_post_type('posts8', $post8Args);
 	register_post_type('posts9', $post9Args);
 	register_post_type('posts10', $post10Args);
+	register_post_type('posts11', $post11Args);
+	register_post_type('posts12', $post12Args);
+	register_post_type('posts13', $post13Args);
 }
 add_action('init', 'whc_custom_post_type');
 
